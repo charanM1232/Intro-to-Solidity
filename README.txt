@@ -1,28 +1,17 @@
-REMIX DEFAULT WORKSPACE
+# My-work
+I am starting a journal of all the coding practice, projects, and work I have completed to build up my skillset.
+Hello, my name is Charan Malisetti and this is my digital log for all the projects I do in order to
+develop the skills necessary to become a blockchain developer
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+I want to complete these three goals by August 2024 (Start date: March 2024)
 
-This workspace contains 3 directories:
+**Goal #1:**
+Learn the fundementals of the language solidity and develop smart contracts. Test these smart contracts and deploy one into the actual blockchain
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+**Goal #2:**
+Understand how to use DeFi platform API's such as uniSwap and integrate it into my own smart contracts
 
-SCRIPTS
+**Goal #3:**
+Develop my very own arbitrage trading bot that can execute transactions between two exchanges, and upload it on cloud. 
+    There is no point in me copying and pasting code I find on the internet because I want to hone my own skills.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
